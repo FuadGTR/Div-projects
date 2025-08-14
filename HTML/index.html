@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+
+  <div class="difficulty">
+    <label for="level">Select Difficulty:</label>
+    <select id="level">
+      <option value="easy">Easy</option>
+      <option value="medium">Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+  </div>
+
+  <div class="choices">
+    <img src="https://static.vecteezy.com/system/resources/thumbnails/036/353/917/small_2x/ai-generated-gray-heavy-rock-file-of-isolated-cutout-object-on-transparent-background-with-shadow-png.png" alt="Rock" id="rock">
+    <img src="https://png.pngtree.com/png-vector/20240815/ourmid/pngtree-white-ripped-paper-torn-edges-strips-isolated-on-background-png-image_13497364.png" alt="Paper" id="paper">
+    <img src="https://images.vexels.com/media/users/3/254863/isolated/preview/7244ff4b95fbce00f953018163201f82-scissors-semi-flat.png" alt="Scissors" id="scissors">
+  </div>
+
+  <div class="arena">
+    <div id="player-choice"></div>
+    <div id="bot-choice"></div>
+  </div>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
